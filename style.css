@@ -18,7 +18,7 @@ html, body {
 }
 
 header {
-    background: linear-gradient(to right,green,lightgreen);
+    background: linear-gradient(to right,green,lightseagreen);
     color: white;
     text-align: center;
     
@@ -88,7 +88,7 @@ section#img02 {
 }
 
 footer {
-    background-color: black;
+    background: linear-gradient(to right,green,lightseagreen);
     text-align: center;
     color: white;
     padding: 10px;
