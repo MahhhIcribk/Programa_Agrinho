@@ -18,7 +18,7 @@ html, body {
 }
 
 header {
-    background-color: lightgreen;
+    background: linear-gradient(to right,green,lightgreen);
     color: white;
     text-align: center;
     
@@ -52,7 +52,7 @@ section {
     line-height: 2em;
     padding-left: 35px;
     font-family: 'Sriracha', cursive;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 section > p {
