@@ -65,6 +65,10 @@ section.normal {
     color: black;
 }
 
+section.normal1 {
+    background: linear-gradient(to top, white, lightseagreen);
+    color: black;
+
 section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
