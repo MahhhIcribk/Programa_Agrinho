@@ -65,16 +65,6 @@ section.normal {
     color: black;
 }
 
-section.headerdown{
-    background: linear-gradient(to top, white, lightseagreen);
-    color: black;
-}
-
-section.footertop{
-    background: linear-gradient(to top, lightseagreen,white);
-    color: black;
-}
-
 section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
@@ -100,7 +90,7 @@ section#img02 {
 }
 
 footer {
-    background: linear-gradient(to top,green,lightseagreen);
+    background: linear-gradient(to right,green,lightseagreen);
     text-align: center;
     color: white;
     padding: 10px;
