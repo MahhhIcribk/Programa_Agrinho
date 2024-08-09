@@ -81,12 +81,12 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url(colheita-de-milho-cm.jpg);
+    background-image: url(img/colheita-de-milho-cm.jpg);
     background-position: center center;
 }
 
 section#img02 {
-    background-image: url(colheita-de-soja-cas.jpg);
+    background-image: url(img/colheita-de-soja-cas.jpg);
     background-position: center center;
 }
 
