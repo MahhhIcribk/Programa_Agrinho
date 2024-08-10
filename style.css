@@ -111,11 +111,13 @@ footer img {
     height: 40px;
 }
 
-footer a {
-    
-}
-
-
+.list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    }
 
 .contact-form input{
     width: 100%;
@@ -125,4 +127,12 @@ footer a {
 
 .contact-form input[type=text] {
     height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
 }

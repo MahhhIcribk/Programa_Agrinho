@@ -22,23 +22,27 @@
         </p>
     </header>
 
+    <section class="normal">
     <h1>Obrigada pelo seu contato!</h1>
-                <p>Retornarei em breve! :)</p>
+    <p>Retornarei em breve! :)</p>
+    </section>
 
-    <form class="contact-form" action="mailto:maria.aparecida.silva16@escola.pr.gov.br" method="POST" enctype="text/plain">
-        Seu nome:<br>
-        <input name="nome" type="text" required /><br>
-        Seu e-mail:<br>
-        <input name="email" type="email" required /><br>
-        Sua Mensagem:<br>
-        <textarea name="mensagem" rows="S" required><br>
-        <input type="submit" value="Enviar"/><br>
-        <input type="reset" value="Limpar"/><br>
+    <form class="contact-form" action="https://formsubmit.co/info@adrianasaty.com" method="POST">
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required="">
+        </div>
+        <div>
+            <label for="message">Mensagem</label>
+            <input type="text" id="message" name="message" required="">
+        </div>
+        <button type="submit">Send</button>
+        <input type="hidden" name="_next" value="https://adrianasaty.github.io/easy-portfolio/thanks.html">
+        <input type="hidden" name="_subject" value="New submission!">
     </form>
 
-
-
     <footer>
+        <section class="list">
         <a href="https://github.com/MahhhIcribk" target="_blank" rel="noopener noreferrer">
             <img src="img/github-icon.png"></img>
             <p>Github</p>
@@ -51,6 +55,8 @@
             <img src="img/referencias-icon.png"></img>
             <p>Referências</p>
         </a>
+        </section>
+        
         Site criado por <a href="https://github.com/MahhhIcribk" target="_blank">Maria Izabelly</a> para o <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank">Programa Agrinho</a>
         ®2024 Projeto Agrinho, <a class="links" href="https://github.com/MahhhIcribk">@MahhhIcribk. Todos os direitos reservados.</a>
     </footer>
