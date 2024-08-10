@@ -119,6 +119,13 @@ footer img {
         font-family: Verdana, Geneva, Tahoma, sans-serif;  
     }
 
+.contact-form {
+    background-color: white;
+    color: black;
+    padding: 0px 50px;
+    font-family: 'Sriracha', cursive;
+}
+
 .contact-form input{
     width: 100%;
     padding: 8px 0;
@@ -132,6 +139,7 @@ footer img {
 button {
     color: black;
     background-color: white;
+    font-family: 'Sriracha', cursive;
     border: none;
     width: 100px;
     height: 30px;
